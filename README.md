@@ -12,7 +12,11 @@ VR-Prototyp zur Brandbekämpfung für die **Meta Quest 2**, entstanden im Rahmen
 
 ## Installation
 
-Installation der APK über Meta Quest Developer Hub auf die Quest (Entwicklermodus aktivieren) installieren. 
-Start über Bibliothek -> Unbekannte Quellen.
+## Installation
+
+1. Die APK aus [Release v1.0](../../releases/tag/v1.0) herunterladen
+2. Den Entwicklermodus auf der Quest aktivieren
+3. Die APK über den **Meta Quest Developer Hub** auf die Quest installieren
+4. Die App über **Bibliothek → Unbekannte Quellen** starten
 
 Unity `6000.2.10f1` URP Meta XR SDK
