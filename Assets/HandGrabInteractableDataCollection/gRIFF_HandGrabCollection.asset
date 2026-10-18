@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c252863d3264814b8c34a1c4a2e762d, type: 3}
+  m_Name: gRIFF_HandGrabCollection
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.HandGrab.HandGrabInteractableDataCollection
+  _interactablesData:
+  - poses:
+    - gripPose:
+        position: {x: 0.08524889, y: 0.07952351, z: 0.030726394}
+        rotation: {x: 0.6294482, y: 0.45041573, z: -0.5526272, w: 0.3090695}
+      handPose:
+        _handedness: 0
+        _fingersFreedom: 0200000002000000010000000100000000000000
+        _jointRotations:
+        - {x: -0.056722585, y: 0.3334086, z: -0.7020731, w: 0.6266719}
+        - {x: 0.06974908, y: -0.15407442, z: 0.17863123, w: 0.9692729}
+        - {x: 0.11831117, y: 0.058381505, z: -0.08529466, w: 0.98758453}
+        - {x: -0.01566503, y: 0.057094153, z: -0.000000053680225, w: 0.99824786}
+        - {x: 0.17253834, y: -0.034211073, z: -0.056697994, w: 0.9827762}
+        - {x: 0.28944364, y: 0.044565227, z: 0.06275698, w: 0.9540972}
+        - {x: 0.10670962, y: -0.028275823, z: 0.022534655, w: 0.9936349}
+        - {x: -0.05226211, y: -0.006945008, z: 0.087035105, w: 0.9948109}
+        - {x: 0.21221893, y: -0.021852383, z: -0.07054805, w: 0.9744293}
+        - {x: 0.2841763, y: -0.03284645, z: 0.013812434, w: 0.9581122}
+        - {x: 0.17345186, y: -0.012212033, z: 0.040236343, w: 0.98394656}
+        - {x: -0.032042064, y: -0.07049415, z: 0.12150324, w: 0.9895679}
+        - {x: 0.17796066, y: 0.00814138, z: -0.14541408, w: 0.97320247}
+        - {x: 0.4117388, y: 0.026963184, z: 0.05433, w: 0.90928406}
+        - {x: 0.23707925, y: 0.004604764, z: 0.019162877, w: 0.9712928}
+        - {x: 0.018312037, y: -0.14034325, z: 0.20703633, w: 0.9680437}
+        - {x: 0.12512952, y: 0.07649314, z: -0.25988224, w: 0.95444036}
+        - {x: 0.36659184, y: 0.04491867, z: 0.05187958, w: 0.92784894}
+        - {x: 0.37630534, y: 0.07347767, z: 0.2089432, w: 0.89963347}
+      scale: 1.0000001
+    grabType: 3
+    handAlignment: 1
+    scoringModifier:
+      _positionRotationWeight: 0.8
+    pinchGrabRules:
+      _thumbRequirement: 1
+      _indexRequirement: 1
+      _middleRequirement: 1
+      _ringRequirement: 0
+      _pinkyRequirement: 0
+      _unselectMode: 0
+    palmGrabRules:
+      _thumbRequirement: 1
+      _indexRequirement: 2
+      _middleRequirement: 2
+      _ringRequirement: 2
+      _pinkyRequirement: 1
+      _unselectMode: 0
